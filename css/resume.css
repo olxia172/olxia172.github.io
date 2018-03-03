@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #272626;
 }
 
 @media (min-width: 992px) {
@@ -82,7 +82,7 @@ h2 {
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
-    max-height: 10rem;
+    max-height: 15rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -131,17 +131,21 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #001a4d !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #0099cc !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #001a4d;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #0099cc;
+}
+
+.my-img {
+  margin-bottom: 2rem!important;
 }
